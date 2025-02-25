@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@types/cli-progress": "^3.11.6",
+    "@types/node": "^22.13.5",
+    "cli-progress": "^3.12.0",
+    "csv-parser": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
