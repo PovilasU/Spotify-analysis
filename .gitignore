@@ -1,5 +1,7 @@
 artist.csv
 track.csv
+filtered_tracks.json
+filtered_artists.json
 
 # Node.js
 node_modules/
