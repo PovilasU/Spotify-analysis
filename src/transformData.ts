@@ -130,7 +130,7 @@ const main = async () => {
   await loadArtists();
 
   console.log("Saving filtered tracks...");
-  saveToCSV("filtered_tracks.csv", tracks);
+  saveToCSV("transformed_tracks.csv", tracks);
 
   console.log("Saving filtered artists...");
   saveToCSV("filtered_artists.csv", artists);

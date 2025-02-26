@@ -23,7 +23,9 @@ const s3 = new aws_sdk_1.default.S3({
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
     region: process.env.AWS_REGION,
 });
-const filePath = path_1.default.join(__dirname, "data", "transformed_tracks.csv");
+const filePath = path_1.default.join(__dirname, "..", "data", "transformed_tracks.csv");
+// const path = require('path');
+//const filePath = path.resolve(__dirname, "transformed_tracks.csv");
 const bucketName = process.env.S3_BUCKET_NAME || "";
 function uploadFileToS3() {
     return __awaiter(this, void 0, void 0, function* () {

@@ -12,7 +12,7 @@ const s3 = new AWS.S3({
   region: process.env.AWS_REGION,
 });
 
-const filePath = path.join(__dirname, "data", "transformed_tracks.csv");
+const filePath = path.join(__dirname, "..", "data", "transformed_tracks.csv");
 const bucketName = process.env.S3_BUCKET_NAME || "";
 
 async function uploadFileToS3() {

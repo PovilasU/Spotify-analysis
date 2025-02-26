@@ -103,7 +103,7 @@ const main = () => __awaiter(void 0, void 0, void 0, function* () {
     yield loadTracks();
     yield loadArtists();
     console.log("Saving filtered tracks...");
-    saveToCSV("filtered_tracks.csv", tracks);
+    saveToCSV("transformed_tracks.csv", tracks);
     console.log("Saving filtered artists...");
     saveToCSV("filtered_artists.csv", artists);
     console.log("Data transformation complete");
