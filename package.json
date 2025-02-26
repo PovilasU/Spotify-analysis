@@ -2,8 +2,12 @@
   "dependencies": {
     "@types/cli-progress": "^3.11.6",
     "@types/node": "^22.13.5",
+    "aws-sdk": "^2.1692.0",
     "cli-progress": "^3.12.0",
     "csv-parser": "^3.2.0",
+    "csv-stringify": "^6.5.2",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
   }
